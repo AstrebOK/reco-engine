@@ -3,12 +3,6 @@
 Рекомендации для карточек товаров / ленты в e-commerce на событиях `view → addtocart → transaction`
 (формат датасета [RetailRocket](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)).
 
-> **Честная оговорка.** Цифры ниже получены на **синтетических данных в формате RetailRocket**
-> (генератор — `recsys/data.py`), потому что в среде, где я собирал проект, не было доступа в интернет.
-> Код сам переключается на настоящий датасет: положите `events.csv` и `item_properties_part{1,2}.csv`
-> в `data/retailrocket/` и запустите `python run.py`. Абсолютные числа на реальных данных будут другими
-> (там выше разреженность и шум); ценность этой работы — в архитектуре и методологии оценки.
-
 ```bash
 pip install -r requirements.txt
 python run.py                 # синтетика, ~45 сек на 1 CPU
