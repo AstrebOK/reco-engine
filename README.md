@@ -1,4 +1,4 @@
-# Двухстадийная рекомендательная система (Retrieval → Ranking)
+# Двухстадийная рекомендательная система (Retrieval -> Ranking)
 
 Рекомендации для карточек товаров / ленты в e-commerce на событиях `view → addtocart → transaction`
 (формат датасета [RetailRocket](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)).
